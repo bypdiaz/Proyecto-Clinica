@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&family=Macondo&family=Yanone+Kaffeesatz&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html {
+    /*permite deslizar cuando hago click en los links del menu*/
+    scroll-behavior: smooth;
+}
+
+/*Menu*/
+.contenedor-header {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.contenedor-header header {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0;
+}
+
+
+.contenedor-header header ul {
+    display: flex;
+    list-style: none;
+}
+
+.contenedor-header header nav ul li a {
+    text-align: center;
+    color: #1e2326;
+    margin: 0 15px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+/*Inicio*/
+
+.inicio {
+    display: flex;
+    align-items: center;
+}
+
+
+.inicio .contenido-banner .contenedor-fondo img {
+    height: 153vh;
+
+}
+
+.inicio .contenido-inicio {
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contenedor-img .fila .columna {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    font-size: 3vh;
+}
+
+.contenedor-img .fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Nosotros*/
+
+.contenedor-info {
+    background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)),
+        url(img/fondo-cs.jpeg);
+    background-size: cover;
+    height: 130vh;
+    color: #fff;
+    padding-top: 100px;
+    text-align: justify;
+
+}
+
+.contenedor-info .contenido-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 120%;
+
+}
+
+.contenedor-info .informacion .fila .columna h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.contenedor-info .informacion .fila .columna {
+    float: left;
+    width: 33%;
+    padding-right: 5px;
+    padding-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.contenedor-info .informacion .fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+/*-----Especialidades-----*/
+
+.opcion {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: darkblue;
+}
+
+.contenido-opcion .fila .columna {
+    text-align: center;
+    
+    color: #fff;
+    float: left;
+    width: 33%;
+    padding-right: 15px;
+    padding-top: 30px;
+
+}
+
+.contenido-opcion img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.contenido-opcion .fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+/*--Especialidad--*/
+
+
+
+.contenido-esp {
+    padding-top: 93px;
+    text-align: center;
+
+
+}
+
+.contenido-esp h1 {
+    background-color: darkblue;
+    color: #fff;
+    font-size: 10vh;
+    
+    border: 4px solid #fff;
+
+}
+
+
+/*Tablas*/
+
+.content-table {
+    margin: 0 auto;
+}
+
+.content-table thead th {
+
+    background-color: darkblue;
+    color: #fff;
+    text-align: middle;
+
+}
+
+.content-table th,
+.content-table td {
+    padding: 25px 28px;
+    border: solid 1px #000;
+}
+
+.content-table img {
+
+    height: 110px;
+    width: 120px;
+}
+
+/*------TURNOS-----*/
+
+/*Guia para turnos on-line*/
+
+.contenedor-guia{
+    background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)),
+        url(img/fondo-cs.jpeg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    padding-top: 100px;
+    text-align: justify;
+}
+
+.contenido-guia h1{
+    padding-top: 20px;
+    font-size: 8vh;
+    text-align: center;
+}
+
+.contenido-guia p{
+    text-align: center;
+    font-size: 4vh;
+}
+
+.guia-turnos{
+    padding: 20px 20px 20px 20px;
+}
+
+.guia-turnos h2{
+    font-size: 6vh;
+}
+
+.guia-turnos li{
+    font-size: 3vh;
+}
+
+
+
+/*Datos del Medico*/
+
+.contenedor-medico {
+
+    background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)),
+        url(../AOI-1/img/formulario.jpg);
+    background-size: cover;
+    height: 160vh;
+    color: #fff;
+    padding-top: 100px;
+
+}
+
+.contenedor-medico h4,
+.contenedor-medico h1 {
+
+    margin-top: 10px;
+    background-color: darkblue;
+    color: #fff;
+    text-align: center;
+
+}
+
+.contenedor-medico img {
+
+    padding-top: 2vh;
+    padding-left: 20vh;
+    width: 70%;
+
+
+}
+
+.contenedor-medico .fila .columna {
+    float: left;
+    width: 35%;
+    padding-right: 5px;
+}
+
+.contenedor-medico .fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*Formulario*/
+
+form {
+
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+
+    font: 1em sans-serif;
+
+
+    width: 300px;
+    box-sizing: border-box;
+
+
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+
+    border-color: #000;
+}
+
+textarea {
+
+    vertical-align: top;
+
+
+    height: 5em;
+}
+
+.button {
+
+    padding-left: 20px;
+}
+
+button {
+
+    margin-left: .5em;
+}
+
+
+
+/*RESERVA*/
+
+.reserva {
+    background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)),
+        url(../AOI-1/img/formulario.jpg);
+    background-size: cover;
+    height: 130vh;
+    color: #fff;
+    padding-top: 100px;
+
+}
+
+.reserva p {
+    padding-top: 200px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+/*INTERNACION*/
+
+.funny img {
+
+    padding-top: 90px;
+}
+
+
+
+/*CONTACTO*/
+
+.contacto .contenedor-contacto {
+ padding-top: 90px;
+ text-align: center;
+}
+
+
+.contenedor-contacto h1{
+ font-size: 8vh;
+ background-color: darkblue;
+ color: #fff;
+ 
+}
+
+.contenedor-contacto p{
+ padding: 20px 0 20px 0;
+ font-size: 4vh;
+}
+
+.contenido-telefonos{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

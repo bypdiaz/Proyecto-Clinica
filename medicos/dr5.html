@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/ico_cs.png">
+    <title>Clinica del Sol - Jujuy</title>
+</head>
+
+<body>
+    <!-- Menu Encabezado -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="../img/logo_ico_cs.png" alt="Imagen no encontrada"></a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                  <li> <a href="../index.html">INICIO</a></li>
+                  <li> <a href="../nosotros.html">NOSOTROS</a></li>
+                  <li> <a href="../especialidades.html">ESPECIALIDADES</a></li>
+                  <li> <a href="../internacion.html">INTERNACION</a></li>
+                  <li> <a href="../contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+    </div>
+
+    <!--Datos del Medico-->
+
+    <div class="contenedor-medico">
+        <div class="fila">
+            <div class="columna">
+                <img src="../img/Medicos/dra6.jpeg" alt="Imagen no encontrada">
+            </div>
+
+            <div class="columna">
+                <h4>MARTÍNEZ DURAN</h4><br>
+                <h4>Maria Alejandra</h4><br>
+                <h4>Fonoaudiologia</h4><br>
+                <h4>Lunes, Miercoles, Jueves y Viernes</h4><br>
+                <h4>8 a 12 y 16 a 19 hs</h4><br>
+            </div>
+        </div>
+
+        <!--Formulario-->
+
+        <h1>DATOS DEL PACIENTE</h1><br>
+
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+             <li>
+               <label for="surname">Apellido:</label>
+               <input type="text" id="surname" name="user_surname">
+             </li>
+             <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name">
+              </li>
+              <li>
+                <label for="dni">DNI:</label>
+                <input type="number" id="dni" name="user_dni">
+              </li>
+              <li>
+                <label for="date">Fecha de Turno:</label>
+                <input type="date" id="date" name="shift_date">
+              </li>
+              <li>
+                <label for="time">Horario de Turno:</label>
+                <input type="time" id="time" name="time_table">
+              </li>
+             <li>
+               <label for="mail">Correo electrónico:</label>
+               <input type="email" id="mail" name="user_mail">
+             </li>
+             <li>
+               <label for="msg">Observacion:</label>
+               <textarea id="msg" name="user_message"></textarea>
+             </li>
+            </ul>
+            <li class="button">
+                <a href="../reserva.html"><button type="button">Reservar Turno</button></a>
+                <a href="../especialidades/fonoaudiologia.html"><button type="button">Regresar al listado</button></a>
+              </li>
+    
+        </form>
+    
+
+    </div>
+
+    
+
+
+</body>
+
+</html>
